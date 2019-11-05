@@ -5,11 +5,11 @@
 ## SECTION - CSE(A1)
 
 # PROGRAM NO.1 : PROGRAM TO PRINT WELCOME MESSAGE
-``#include <stdio.h>``
-``void main ()``
-`{`
-`puts ("Welcome Budding Engineers");`
-`}`
+```#include <stdio.h>```
+```void main ()```
+```{```
+```puts ("Welcome Budding Engineers");```
+```}```
 
 ## OUTPUT
 `Welcome Budding Engineers`
