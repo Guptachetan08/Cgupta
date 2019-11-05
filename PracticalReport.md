@@ -7,6 +7,7 @@
 # PROGRAM NO.1 : PROGRAM TO PRINT WELCOME MESSAGE
 `#include <stdio.h>`  
 `void main ()`  
+  
 `{`  
 `puts ("Welcome Budding Engineers");`  
 `}`  
@@ -17,6 +18,7 @@
 # PROGRAM NO. 2 : PROGRAM TO PRINT THE ADDRESS
 `include <stdio.h>`  
 `void main ()`  
+  
 `{`  
 `puts ("House number : 172");`  
 `puts ("Janta Nagar ");`  
@@ -31,6 +33,7 @@
 # PROGRAM NO 3 : PROGRAM TO FIND THE SUM OF TWO NUMBERS
 `#include <stdio.h>`  
 `int main ()`  
+  
 `{`  
 `int a,b,c;`  
 `printf ("Enter first variable : ");`  
@@ -50,6 +53,7 @@
 # PROGRAM NO 4 : PROGRAM TO CONVERT TEMPERATURE FROM CELCIUS TO FAHRENHEIT
 `#include <stdio.h>`  
 `void main ()`  
+  
 `{`  
 `float num1,num2;`  
 `printf ("\nEnter value in centigrade:\n");`  
@@ -67,14 +71,19 @@
 # PROGRAM NO 5 : PROGRAM TO FIND AREA AND PERIMETER OF A CIRCLE
 `#include <stdio.h>`  
 `int main ()`  
+  
 `{`  
 `float radius,area, peri,pi=3.14 ;`  
+  
 `printf("Enter radius of circle :");`  
 `scanf ("%f",&radius);`  
+  
 `area=pi*radius*radius;`  
 `peri=2*pi*radius;`  
+  
 `printf("Area of circle : %f,",area);`  
 `printf("Perimeter of circle : %f",peri);`  
+  
 `return 0;`  
 `}`  
 
@@ -85,17 +94,23 @@
 # PROGRAM NO 6 : PROGRAM TO SWAP TWO NUMBERS WITHOUT USING THIRD VARIABLE
 `#include <stdio.h>`  
 `int main ()`  
+  
 `{`  
 `int a,b;`  
+  
 `printf ("\nEnter the value of a :");`  
 `scanf ("%d",&a);`  
+  
 `printf("\nEnter the value of b :");`  
 `scanf ("%d",&b);`  
+  
 `a=a+b;`  
 `b=a-b;`  
 `a=a-b;`  
+  
 `printf ("\nThe swaped values of a : %d\n",a);`  
 `printf ("\nThe swaped value of b : %d \n",b);`  
+  
 `return 0;`  
 `}`  
 
@@ -112,19 +127,25 @@
 `#include <stdio.h>`  
 `int oddeven(int num1);`  
 `int main ()`  
+  
 `{`  
 `int s ;`  
+  
 `printf ("Enter the integer:");`  
 `scanf ("%d",&s);`  
+  
 `oddeven (s);`  
 `return 0;`  
 `}`  
+  
 `int oddeven(int num1)`  
 `{`  
 `if (num1%2==0)`  
+  
 `printf ("The number is even");`  
 `else`  
 `printf ("The number is odd:");`  
+  
 `return 0;`  
 `}`  
 
@@ -132,7 +153,53 @@
 `Enter the integer:145`  
 `The number is odd`  
 
+# PROGRAM NO 8 : PROGRAM TO FIND FACTORIAL OF A NUMBER
+`#include <stdio.h>`  
+`void main()`  
+  
+`{`  
+`int a,n=1,i;`  
+  
+`printf("enter i : ");`  
+`scanf("%d",&i);`  
+  
+`for(a=1;a<=i;a++)`  
+`n=n*a;`  
+  
+`printf("factorial of i is %d \n",n);`  
+`return 0;`  
+`}`  
 
+## OUTPUT
+`enter i : 5`  
+`factorial of i is 120`  
+
+# PROGRAM NO 9 : PROGRAM TO REVERSE A NUMBER
+`#include <stdio.h>`  
+`int main ()`  
+  
+`{`   
+`int n , reverse =0;`  
+  
+`printf ("Enter the number to be reversed:\n");`  
+`scanf ("%d",&n);`  
+  
+`while(n!=0)`  
+`{`  
+`reverse = reverse*10;`  
+`reverse = reverse + n%10;`  
+`n=n/10;`    
+`}`    
+  
+`printf ("Reverse number is:%d\n",reverse);`  
+`return 0;`  
+`}`  
+
+## OUTPUT
+`Enter the number to be reversed:`  
+`1598`  
+`Reverse number is:8951`  
+  
 
 
 
