@@ -835,15 +835,114 @@
 `18 18 18`  
 `18 18 18`  
 
+# PROGRAM NO 23:- PROGRAM TO PRINT SQUARE OF A NUMBER USING FUNCTION
+`#include<stdio.h>`  
+`int square(int); `  
+  
+`int main()`  
+`{`  
+   ` int number, answer;`  
+      
+    ` printf("Enter your number:");`  
+    ` scanf("%d", &number);`  
+      
+    ` answer = square(number);`  
+      
+    ` printf("Square of %d is %d.", number, answer);`  
+  
+`return 0;`  
+`}`  
+  
+`int square(int n)`  
+`{ `  
+    ` return(n*n); `  
+`} `  
+
+## OUTPUT
+`Enter your number:12`  
+`Square of 12 is 144.`  
+
+# PROGRAM NO 24 :- PROGRAM FOR SWAPPING OF NUMBERS
+## (1) CALL BY VALUE
+`#include <stdio.h>`  
+`int swapcbv(int num1,int num2);`  
+`int main ()`  
+  
+`{`  
+`int a,b;`  
+  
+`printf ("Enter the first integer:");`  
+`scanf ("%d",&a);`  
+`printf ("Enter the second integer:");`  
+`scanf("%d",&b);`  
+  
+`printf ("\n Before Calling the Function");`  
+`printf("Value of a=%d, Value of b =%d",a,b );` 
+  
+`swapcbv(a,b);`  
+  
+`printf ("\nAfter Calling the Function");`  
+`printf("Value of a=%d,Value of b=%d",a,b);` 
+  
+`return 0;`  
+`}`  
+  
+`int swapcbv(int num1, int num2)`  
+`{`  
+`int c;`  
+  
+`c=num1;`  
+`num1=num2;`  
+`num2=c;`  
+`}`  
+
+## OUTPUT
+`Enter the first integer:5`  
+`Enter the second integer:8`  
+  
+` Before Calling the FunctionValue of a=5, Value of b =8`  
+`After Calling the FunctionValue of a=5,Value of b=8`  
 
 
+## (2) CALL BY REFERENCE
+`#include <stdio.h>`  
+`int swapcbr (int *num1, int *num2);`  
+`int main ()`  
+  
+`{ `  
+`int a,b;`  
+  
+`printf ("Enter first Integer:");`  
+`scanf ("%d",&a);`  
+`printf ("Enter second Integer:");`  
+`scanf ("%d",&b);`  
+  
+`printf ("\nBefore Calling Function");`  
+`printf ("Value of a = %d, Value of b = %d", a,b);`  
+  
+`swapcbr(&a,&b);`  
+  
+`printf ("\nAfter Calling Function");`  
+`printf ("Value of a = %d, Value of b = %d", a,b);`  
+  
+`return 0;`  
+`}`  
+  
+`int swapcbr(int *num1, int *num2)`  
+`{`  
+`int c;`  
+  
+`c=*num1;`  
+`*num1=*num2;`  
+`*num2=c;`  
+`}`  
+
+## OUTPUT
+`Enter first Integer:3`  
+`Enter second Integer:5`  
+  
+`Before Calling FunctionValue of a = 3, Value of b = 5`  
+`After Calling FunctionValue of a = 5, Value of b = 3`  
 
 
-
-
-
-
-
-
-
-
+ 
