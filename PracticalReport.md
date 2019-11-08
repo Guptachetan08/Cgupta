@@ -374,18 +374,18 @@
    `if (year%100==0)`  
    `{`  
       `if (year%400==0)`  
-           `printf ("%d is a leap year");`    
+           `printf ("%d is a leap year");`  
        `else`  
             `printf ("%d is not a leap year");`  
     `}`  
       
      `else`  
-       `printf ("%d is not a leap year");`   
+       `printf ("%d is not a leap year");`  
   `}`  
    `else`  
      `printf ("%d is a leap year");`  
        
-  `return 0;`    
+  `return 0;`  
 `}`  
 
 ## OUTPUT
@@ -848,7 +848,7 @@
     `answer = square(number);`  
       
     `printf("Square of %d is %d.", number, answer);`  
-  
+      
 `return 0;`  
 `}`  
   
