@@ -378,9 +378,8 @@
        `else`  
             `printf ("%d is not a leap year");`  
     `}`  
-      
      `else`  
-       `printf ("%d is not a leap year");`  
+     `printf ("%d is not a leap year");`  
   `}`  
    `else`  
      `printf ("%d is a leap year");`  
@@ -757,8 +756,7 @@
   
 `if(r2==c1)`  
 `{`  
-    `printf("\n Enter First Matrix:");`  
-      
+    `printf("\n Enter First Matrix");`  
     `for(i=0; i<r1; i++)`  
     `{`  
         `for(j=0; j<c1; j++)`  
@@ -771,8 +769,8 @@
     `{`  
        `for(j=0; j<c2; j++)`  
           `scanf("%d",&b[i][j]);`  
-   `}`  
-     
+    `}`  
+      
     `printf("The First Matrix Is: \n");`  
       
    `for(i=0; i<r1; i++)`  
@@ -836,7 +834,7 @@
 
 # PROGRAM NO 23:- PROGRAM TO PRINT SQUARE OF A NUMBER USING FUNCTION
 `#include<stdio.h>`  
-`int square(int); `  
+`int square(int);`  
   
 `int main()`  
 `{`  
