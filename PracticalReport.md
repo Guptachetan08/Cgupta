@@ -372,21 +372,20 @@
 `if (year%4==0)`  
 `{`  
    `if (year%100==0)`  
-  
-       ` { `  
-          ` if (year%400==0)  `  
-           ` printf ("%d is a leap year"); `    
-          ` else   `  
-            `  printf ("%d is not a leap year");  `  
-             `  }  `  
-          
-       ` else   `  
-       `    printf ("%d is not a leap year"); `   
-        ` }  `  
-   ` else   `  
-   `    printf ("%d is a leap year");   `  
-          
-  ` return 0;  `  
+   `{`  
+      `if (year%400==0)`  
+           `printf ("%d is a leap year");`    
+       `else`  
+            `printf ("%d is not a leap year");`  
+    `}`  
+      
+     `else`  
+       `printf ("%d is not a leap year");`   
+  `}`  
+   `else`  
+     `printf ("%d is a leap year");`  
+       
+  `return 0;`    
 `}`  
 
 ## OUTPUT
@@ -763,36 +762,36 @@
     `for(i=0; i<r1; i++)`  
     `{`  
         `for(j=0; j<c1; j++)`  
-          `  scanf("%d",&a[i][j]);`  
+          `scanf("%d",&a[i][j]);`  
     `}`  
       
     `printf("\n Enter Second Matrix: ");`  
       
-   ` for(i=0; i<r2; i++)`  
+   `for(i=0; i<r2; i++)`  
     `{`  
-       ` for(j=0; j<c2; j++)`  
-          `  scanf("%d",&b[i][j]);`  
-   ` }`  
+       `for(j=0; j<c2; j++)`  
+          `scanf("%d",&b[i][j]);`  
+   `}`  
      
     `printf("The First Matrix Is: \n");`  
       
-   ` for(i=0; i<r1; i++)`  
+   `for(i=0; i<r1; i++)`  
     `{`  
-       ` for(j=0; j<c1; j++)`  
-          `  printf(" %d ",a[i][j]);`  
+       `for(j=0; j<c1; j++)`  
+          `printf(" %d ",a[i][j]);`  
         `printf("\n");`  
-   ` }`  
+   `}`  
      
-   ` printf("The Second Matrix Is:\n");`  
+   `printf("The Second Matrix Is:\n");`  
      
-  `  for(i=0; i<r2; i++)`  
-  `  {`  
-      `  for(j=0; j<c2; j++)`  
-          `  printf(" %d ",b[i][j]);`  
-       ` printf("\n");`  
+  `for(i=0; i<r2; i++)`  
+  `{`  
+      `for(j=0; j<c2; j++)`  
+          `printf(" %d ",b[i][j]);`  
+       `printf("\n");`  
     `}`  
       
-   ` printf("Multiplication of the Matrices:\n");` 
+   `printf("Multiplication of the Matrices:\n");` 
      
   `for(i=0; i<r1; i++)`  
    `{`  
@@ -802,9 +801,9 @@
             `for(k=0; k<r1; k++)`  
                 `c[i][j]+=a[i][k]*b[k][j];`  
             `printf("%d  ",c[i][j]);`  
-       ` }`  
-       ` printf("\n");`  
-   ` }`  
+       `}`  
+       `printf("\n");`  
+   `}`  
 `}`  
 `else`  
   `{`  
@@ -841,22 +840,22 @@
   
 `int main()`  
 `{`  
-   ` int number, answer;`  
+   `int number, answer;`  
       
-    ` printf("Enter your number:");`  
-    ` scanf("%d", &number);`  
+    `printf("Enter your number:");`  
+    `scanf("%d", &number);`  
       
-    ` answer = square(number);`  
+    `answer = square(number);`  
       
-    ` printf("Square of %d is %d.", number, answer);`  
+    `printf("Square of %d is %d.", number, answer);`  
   
 `return 0;`  
 `}`  
   
 `int square(int n)`  
-`{ `  
-    ` return(n*n); `  
-`} `  
+`{`  
+    `return(n*n);`  
+`}`  
 
 ## OUTPUT
 `Enter your number:12`  
