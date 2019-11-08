@@ -760,10 +760,10 @@
     `for(i=0; i<r1; i++)`  
     `{`  
         `for(j=0; j<c1; j++)`  
-          `scanf("%d",&a[i][j]);`  
+         `scanf("%d",&a[i][j]);`  
     `}`  
       
-    `printf("\n Enter Second Matrix: ");`  
+    `printf("\n Enter Second Matrix: ");`   
       
    `for(i=0; i<r2; i++)`  
     `{`  
@@ -838,7 +838,7 @@
   
 `int main()`  
 `{`  
-   `int number, answer;`   
+   `int number, answer;`  
     `printf("Enter your number:");`   
     `scanf("%d", &number)`  
       
@@ -1008,10 +1008,32 @@
 `Fibonacci series`  
 `0 1 1 2 3 5 8 13 21`  
 
+# PROGRAM NO 27 :- PROGRAM TO ENTER ELEMANTS IN A STRUCTURE AND DISPLAY THEM
+`#include <stdio.h>`  
+`struct patient`  
+`{`  
+        `char name[10];`  
+        `float age;`  
+        `char gender;`  
+`};`  
+`int main()`  
+`{`  
+        `struct patient p;`  
+        `printf("Enter the name: ");`  
+        `scanf("%s",p.name);`  
+        `printf("Enter the age: ");`  
+        `scanf("%f",&p.age);`  
+        `printf("Enter the gender: ");`  
+        `scanf(" %c",&p.gender);`  
+        `printf("%s of age %.2f of gender %c is having liver disease\n",p.name,p.age,p.gender);`  
+        `return 0;`  
+`}`  
 
-
-
-
+## OUTPUT
+`Enter the name: abc`  
+`Enter the age: 18`  
+`Enter the gender: M`  
+`abc of age 18.00 of gender M is having liver disease`  
 
 
 
