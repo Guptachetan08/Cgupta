@@ -838,9 +838,8 @@
   
 `int main()`  
 `{`  
-   `int number, answer;`  
-     
-    `printf("Enter your number:");`  
+   `int number, answer;`   
+    `printf("Enter your number:");`   
     `scanf("%d", &number)`  
       
     `answer = square(number);`  
@@ -939,6 +938,84 @@
   
 `Before Calling FunctionValue of a = 3, Value of b = 5`  
 `After Calling FunctionValue of a = 5, Value of b = 3`  
+
+# PROGRAM NO 25 :- PROGRAM TO FIND FACTORIAL OF A NUMBER USING RECURSION
+`#include <stdio.h>`  
+`int fact(int num1);`  
+`int main ()`  
+`{`  
+`int i,n;`  
+`printf ("\nEnter the value of n:");`  
+`scanf("%d",&n);`  
+`for (i=1;i<=n;i++)`  
+`{`  
+`printf ("\n%d!=%d",i,fact(i));`  
+`}`  
+`return 0;`  
+`}`  
+`int fact (int num1)`  
+`{ if (num1==0)`  
+`return 1;`  
+`else`  
+`return (num1*fact(num1-1));`  
+`}`  
+
+## OUTPUT
+`Enter the value of n:12`  
+  
+`1!=1`  
+`2!=2`  
+`3!=6`  
+`4!=24`  
+`5!=120`  
+`6!=720`  
+`7!=5040`  
+`8!=40320`  
+`9!=362880`  
+`10!=3628800`  
+`11!=39916800`  
+`12!=479001600`  
+
+# PROGRAM NO 26 :- PROGRAM TO FIND FIBONACCI SERIES USING RECURSION
+`#include<stdio.h>`  
+`int Fibonacci(int);`  
+`int main()`  
+`{`  
+        `int n,i=0;`  
+        `printf("Enter the limit: ");`  
+        `scanf("%d",&n);`  
+        `printf("Fibonacci series\n");`  
+        `for(int j=0;j<=n;j++)`  
+        `{`  
+                `printf("%d ",Fibonacci(i));`  
+                `i++;`  
+        `}`  
+        `printf("\n");`  
+        `return 0;`  
+`}`  
+`int Fibonacci(int n)`  
+`{`  
+        `if(n==0)`  
+        `return 0;`  
+        `else if(n==1)`  
+        `return 1;`  
+        `else`  
+        `return ( Fibonacci(n-1) + Fibonacci(n-2) );`  
+`}`  
+
+## OUTPUT
+`Enter the limit: 8`  
+`Fibonacci series`  
+`0 1 1 2 3 5 8 13 21`  
+
+
+
+
+
+
+
+
+
 
 
  
