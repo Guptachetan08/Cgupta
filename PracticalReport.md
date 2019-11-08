@@ -839,12 +839,11 @@
 `int main()`  
 `{`  
    `int number, answer;`  
-      
+     
     `printf("Enter your number:");`  
-    `scanf("%d", &number);`  
+    `scanf("%d", &number)`  
       
     `answer = square(number);`  
-      
     `printf("Square of %d is %d.", number, answer);`  
       
 `return 0;`  
