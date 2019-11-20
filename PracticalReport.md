@@ -3,7 +3,7 @@
 ## ROLL NO.- 1915017
 ## BRANCH - COMPUTER SCIENCE
 ## SECTION - CSE(A1)
-Logo(New Doc 2019-11-06 14.14.46.jpg)
+Logo*(New Doc 2019-11-06 14.14.46.jpg)
 
 # PROGRAM NO.1 : PROGRAM TO PRINT WELCOME MESSAGE
 `#include <stdio.h>`  
