@@ -1037,6 +1037,16 @@
 `abc of age 18.00 of gender M is having liver disease`  
 
 
+# Program no. 28:-Program to represent Pointers
+`#include <stdio.h>`  
+`int main()`  
+`{`  
+   `int num = 10;`  
+   `printf("Value of variable num is: %d", num);`  
+   
+   `printf("\nAddress of variable num is: %p", &num);`  
+   `return 0;`  
+`}`  
 
 
 
