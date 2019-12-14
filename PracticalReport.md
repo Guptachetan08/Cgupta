@@ -4,7 +4,8 @@
 
 # Practical Report for Programing for Problam Solving
 ## Name - CHETAN GUPTA
-## ROLL NO.- 1915017
+## UNIVERSITY ROLL NO.-1904985
+## COLLEGE ROLL NO.- 1915017
 ## BRANCH - COMPUTER SCIENCE
 ## SECTION - CSE(A1)
 
@@ -1041,16 +1042,21 @@
 `abc of age 18.00 of gender M is having liver disease`  
 
 
-# Program no. 28:-Program to represent Pointers
+# PROGRAM NO 28 :- PROGRAM TO SHOW THE USE OF POINTER VARIABLES
 `#include <stdio.h>`  
 `int main()`  
 `{`  
-   `int num = 10;`  
-   `printf("Value of variable num is: %d", num);`  
-   
-   `printf("\nAddress of variable num is: %p", &num);`  
+   `int a=10;`  
+   `int *p;`  
+   `p=&a;`  
+   `printf("Address stored in a variable p is:%x\n",p);`  
+   `printf("Value stored in a variable p is:%d\n",*p);`  
    `return 0;`  
 `}`  
+
+## OUTPUT
+`Address stored in a variable p is:60ff08`  
+`Value stored in a variable p is:10`  
 
 
 
