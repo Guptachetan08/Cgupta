@@ -1,5 +1,5 @@
-# GURU NANAK DEV ENGG. COLLEGE
-![LOGO](New Doc 2019-11-06 14.14.46.jpg)
+# **GURU NANAK DEV ENGG. COLLEGE**
+![LOGO](https://github.com/Guptachetan08/Cgupta/blob/master/New%20Doc%202019-11-06%2014.14.46.jpg?raw=true)
 # Practical Report for Programing for Problam Solving
 ## Name - CHETAN GUPTA
 ## ROLL NO.- 1915017
